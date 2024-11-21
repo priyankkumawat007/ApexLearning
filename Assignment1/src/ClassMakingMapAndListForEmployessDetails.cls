@@ -20,6 +20,6 @@ public without sharing class ClassMakingMapAndListForEmployessDetails {
         mapToStoreDepartmentAndListOfEmployees.put('Finance',new List<String>
         {'FinanceEmployee1','FinanceEmployee2','FinanceEmployee3','FinanceEmployee4'});
         
-        System.debug(mapToStoreDepartmentAndListOfEmployees);
+        
     }
 }

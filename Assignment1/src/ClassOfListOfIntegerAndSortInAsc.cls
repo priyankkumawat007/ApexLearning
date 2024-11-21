@@ -12,7 +12,7 @@ public class ClassOfListOfIntegerAndSortInAsc {
     public void sortTheListOfInteger(){
         List<Integer> ListOfInteger = new List<Integer>{56,78,31,55,99};
         ListOfInteger.sort();
-        System.debug(ListOfInteger);
+        
         
     }
 }
