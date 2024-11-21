@@ -13,9 +13,12 @@ public without sharing class ClassMakingMapAndListForEmployessDetails {
     //Constructor
     public ClassMakingMapAndListForEmployessDetails(){
         Map<String,List<String>> mapToStoreDepartmentAndListOfEmployees = new Map<String,List<String>>();
-        mapToStoreDepartmentAndListOfEmployees.put('Marketing',new List<String>{'MarketingEmployee1','MarketingEmployee2','MarketingEmployee3','MarketingEmployee4'});
-        mapToStoreDepartmentAndListOfEmployees.put('Sales',new List<String>{'SalesEmployee1','SalesEmployee2','SalesEmployee3','SalesEmployee4'});
-        mapToStoreDepartmentAndListOfEmployees.put('Finance',new List<String>{'FinanceEmployee1','FinanceEmployee2','FinanceEmployee3','FinanceEmployee4'});
+        mapToStoreDepartmentAndListOfEmployees.put('Marketing',new List<String>
+        {'MarketingEmployee1','MarketingEmployee2','MarketingEmployee3','MarketingEmployee4'});
+        mapToStoreDepartmentAndListOfEmployees.put('Sales',new List<String>
+        {'SalesEmployee1','SalesEmployee2','SalesEmployee3','SalesEmployee4'});
+        mapToStoreDepartmentAndListOfEmployees.put('Finance',new List<String>
+        {'FinanceEmployee1','FinanceEmployee2','FinanceEmployee3','FinanceEmployee4'});
         
         System.debug(mapToStoreDepartmentAndListOfEmployees);
     }
